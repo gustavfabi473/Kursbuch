@@ -112,7 +112,7 @@
       <div class="modal-head"><button class="modal-logo" aria-label="Kursbuch">K</button><button class="close-button" data-close-modal aria-label="Fenster schließen">×</button></div>
       <div class="auth-view" id="auth-view">
         <div class="auth-intro"><p class="eyebrow">KURSBUCH</p><h2 id="auth-title">Willkommen zurück.</h2><p id="auth-subtitle">Melde dich an, um Erinnerungen festzuhalten.</p></div>
-        <div class="auth-tabs" role="tablist"><button class="active" data-auth-mode="login">Anmelden</button><button data-auth-mode="register">Konto erstellen</button><button data-auth-mode="admin">Admin</button></div>
+        <div class="auth-tabs" role="tablist"><button class="active" data-auth-mode="login">Anmelden</button><button data-auth-mode="register">Konto erstellen</button></div>
         <form id="auth-form" novalidate></form>
       </div>
     </dialog>
@@ -153,6 +153,7 @@
       <label>Die Situation<textarea required name="content" placeholder="Erzähl die Situation so detailreich wie möglich …" maxlength="1200"></textarea></label>
       <button class="primary-button form-submit" type="submit">Situation speichern <span>↗</span></button>
     </template>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="app.js"></script>
   </body>
 </html>
